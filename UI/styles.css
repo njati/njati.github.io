@@ -1,0 +1,75 @@
+
+.loginform{
+    width: 31%;
+    padding: 60px 18px 40px 18px;
+    margin: auto;
+    margin-top: 69px;
+    background-color: gray;
+}
+
+body{
+    margin: 0;
+}
+
+.formtoright{
+    width: 100%;
+}
+
+input{
+    padding: 9px;
+    margin: 15px 5px;
+    border-radius: 23px;
+    border: none;
+    display: block;
+    width: 86%;
+}
+
+.loginform button{
+    padding: 9px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #64d4cfcc;
+    border: none;
+    margin: 17px auto 10px auto;
+}
+
+.loginform legend{
+    color: white;
+    text-align: center;
+}
+
+.loginP{
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 3px;
+    top: 10px;
+    left: 0;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 0;
+    padding: 0 10px;
+    bottom: 0;
+}
+
+.register{
+    margin-top: 33px !important;
+    padding: 26px 18px 40px 18px !important;
+}
+.register h1{
+    margin: 0px;
+    margin-bottom: 11px;
+    color: wheat;
+    text-align: center;
+}
+
+   @media only screen and (max-width: 600px) {
+    .loginform{
+        width: 100%;
+        background: none;
+        padding: 0;
+        
+    }
+  }
+  
