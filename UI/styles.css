@@ -244,6 +244,32 @@ footer{
     border-radius: 5px;
 }
 
+.containerinside{
+    position: relative;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: -2px 9px 25px #4b6b6a;
+
+}
+
+.containerinside h1{
+    display: inline;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.containerinside img{
+    width: 16%;
+    display: inline;
+}
+
+.containerinside button{
+    background-color: #ef0404;
+    float: right;
+}
 
 
 
