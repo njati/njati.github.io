@@ -184,12 +184,65 @@ footer{
     margin: 0px;
 
 }
+
+.createmeetupbody{
+    background-color: #f1f1f1;
+}
+
+.meetup{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.meetup select{
+    width: 100%;
+    margin: 16px 0;
+    padding: 9px 0;
+}
+
+
+.meetup input{
+    border-radius: 4px;
+    width: 100%;
+    padding: 9px 0;
+}
         
+.meetup textarea{
+    width:100%;
+    display: block;
+    margin: 16px 0;
+    
+}
 
+.meetup img{
+    height: 200px;
+    width: 100%;
+}
 
+.meet-left{
+    float: left;
+    width: 49%;
 
+}
 
+.clear{
+    clear: both;
+}
 
+.createmeetupbody header{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.meetup button{
+    float: right;
+    padding: 9px 12px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+}
 
 
 
