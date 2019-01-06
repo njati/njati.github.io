@@ -338,7 +338,25 @@ footer{
     width: 56%;
 }
 
+.resetclass{
+    clear: both;
+    margin: auto;
+    width: 60%;
+}
+#reset{
+    top: 50%;
+}
 
+.resetclass input{
+    border: 1px solid green;
+}
+
+.subbutton{
+    width: 89%;
+    border-radius: 40px;
+    background-color: burlywood;
+    box-shadow: 3px 4px 8px black;
+}
 
 
 
