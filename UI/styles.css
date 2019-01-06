@@ -120,7 +120,7 @@ footer{
     }
 
 .show{
-    display: block;
+    display: block !important;
 
 }
 
@@ -220,6 +220,9 @@ footer{
     width: 100%;
 }
 
+.meetup h3{
+    display: inline-block;
+}
 .meet-left{
     float: left;
     width: 49%;
@@ -271,9 +274,25 @@ footer{
     float: right;
 }
 
+.meetupz{
+    margin: auto;
+    display: table;
+    padding: 20px;
+}
 
+.inpost{
+    width: 80%;
+    background-color: blanchedalmond;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 100vh;
+}
 
-
+.none{
+    display: none;
+}
 
 
 

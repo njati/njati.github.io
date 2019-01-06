@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--Link to the styles sheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <nav class="nav"> 
+                <div class="header">
+                    
+                    <img src="Question.png" alt="">
+                </div>
+        </nav>
+             <p><h3 class="meetupz" >Meetup Title goes here</h3></p>
+
+             <div class="meetup">                        
+                    <div>
+                            <div class="meet-left"> 
+                                    <img id="image" src="default.jpg" /> <!--Preview for header image-->
+                            </div>
+
+                            <div class=meet-left>
+                                <p>When:</p> <p>Date goes here</p>
+
+                                <p>Time:</p> <p>Time goes here</p>
+
+                                 
+                            </div>
+                    </div>
+
+                    <div class="clear">
+                        <div>
+                            Meetup description details goes here
+                        </div>
+                            <h3>Have a question you would like answered. Be free...</h3><button class="dropbutton" onclick="postquiz()">I have one</button> 
+
+                            
+                            <div id="quiz" class="none">
+                                    <form action="" id="quiz" class="">
+                                            <textarea name="" placeholder="create question here "id="" cols="30" rows="10"></textarea>
+                                
+                                            <button>Submit</button>
+                                    </form>
+                            </div>
+                           
+                    </div>
+                   
+        </div>
+       <script>
+            function postquiz(){
+                document.getElementById("quiz").classList.toggle("show");
+            }
+       </script>             
+</body>
+</html>
