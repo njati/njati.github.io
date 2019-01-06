@@ -408,6 +408,13 @@ ft-reset-password-162984182
     margin: auto;
 }
 
+.cma{
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 45px;
+}
 
 
 
